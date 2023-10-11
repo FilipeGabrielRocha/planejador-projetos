@@ -4,7 +4,7 @@ import Home from "./components/pages/Home";
 import Company from "./components/pages/Company";
 import Contact from "./components/pages/Contact";
 import NewProject from "./components/pages/NewProject";
-import Container from "./components/layouts/Container";
+import Container from "./components/layouts/Container"
 
 function App() {
   return (
