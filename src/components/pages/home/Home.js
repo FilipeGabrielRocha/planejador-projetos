@@ -1,7 +1,7 @@
 import './homeModule.css'
 
 import saving from '../../../img/savings.svg'
-import LinkButton from '../../linkButton/LinkButton';
+import LinkButton from '../../layouts/linkButton/LinkButton';
 
 function Home() {
   return (
