@@ -5,6 +5,7 @@ import Company from "./components/pages/company/Company";
 import Contact from "./components/pages/contact/Contact";
 import NewProject from "./components/pages/newproject/NewProject";
 import Projects from "./components/pages/projects/Projects";
+import Project from './components/pages/project/Project'
 
 import Container from "./components/layouts/container/Container"
 import Navbar from "./components/layouts/navbar/NavBar";
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/newproject" element={<NewProject />} />
           <Route exact path="/projects" element={<Projects />} />
+          <Route exact path="/project/:id" element={<Project />} />
         </Routes>
       </Container>
       <Footer />
