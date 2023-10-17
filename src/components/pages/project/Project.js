@@ -41,7 +41,7 @@ export default function Project() {
             <div className="details_container">
               <h1>Projeto: {project.name}</h1>
               <div className="btns">
-                <LinkButton className={"btn"} to={"/projects"} text={"Voltar"} />
+                <LinkButton to={"/projects"} text={"Voltar"} />
                 <button className="btn" onClick={toggleProjectForm}>
                   {!showProjectForm ? "Editar projeto" : "Fechar"}
                 </button>
