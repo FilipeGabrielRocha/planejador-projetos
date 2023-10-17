@@ -9,7 +9,6 @@ import "./ProjectModule.css";
 
 export default function Project() {
   const { id } = useParams();
-  console.log(id);
 
   const [project, setProject] = useState([]);
   const [showProjectForm, setShowProjectForm] = useState(false);
