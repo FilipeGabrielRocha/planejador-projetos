@@ -43,6 +43,11 @@
     color: #ffbb33;
 }
 
+.btns {
+    display: flex;
+    gap: 15px;
+}
+
 .project_info {
     width: 100%;
 }

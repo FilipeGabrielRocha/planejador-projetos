@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 
 import Loading from "../../layouts/loading/Loading";
 import Container from "../../layouts/container/Container";
+import LinkButton from "../../layouts/linkButton/LinkButton"
 
 import "./ProjectModule.css";
 
@@ -40,9 +41,12 @@ export default function Project() {
           <Container customClass="column">
             <div className="details_container">
               <h1>Projeto: {project.name}</h1>
-              <button className="btn" onClick={toggleProjectForm}>
-                {!showProjectForm ? "Editar projeto" : "Fechar"}
-              </button>
+              <div className="btns">
+                <LinkButton className={"btn"} to={"/projects"} text={"Voltar"} />
+                <button className="btn" onClick={toggleProjectForm}>
+                  {!showProjectForm ? "Editar projeto" : "Fechar"}
+                </button>
+              </div>
               {!showProjectForm ? (
                 <div className="project_info">
                   <p>
