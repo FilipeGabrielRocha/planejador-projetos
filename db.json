@@ -40,8 +40,21 @@
       },
       "name": "Projeto Planejamento",
       "budget": "5000",
-      "cost": 0,
-      "services": [],
+      "cost": 1000,
+      "services": [
+        {
+          "name": "Meu novo serviço",
+          "cost": "500",
+          "description": "Faz isso aqui",
+          "id": "d497207d-a6a6-45af-98ae-f336fe8ecf90"
+        },
+        {
+          "name": "Meu novo serviço",
+          "cost": "500",
+          "description": "Faz isso aqui",
+          "id": "d497207d-a6a6-45af-98ae-f336fe8ecf90"
+        }
+      ],
       "id": 1
     }
   ],
